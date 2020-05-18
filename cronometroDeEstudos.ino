@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0f9932e3b1743c031c73eaeae2dd32ea3d776dfe
 #include <LiquidCrystal.h>      // usando a biblioteca LiquidCrystal
 
 const int rs = 8, en = 9, d4 = 4, d5 = 5, d6 = 6, d7 = 7; // definicao dos pinos do Display
