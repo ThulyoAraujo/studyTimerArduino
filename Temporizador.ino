@@ -27,7 +27,7 @@ boolean Temporizador (boolean desativado) {
 
     if (segundo <= 0) {
       delay(1000);
-      minuto = minuto - 1;
+
 
       if (minuto == 0 && segundo <= 0) {
         lcd.clear();
@@ -38,7 +38,7 @@ boolean Temporizador (boolean desativado) {
         delay(1000);
         return true;
       }
-
+      minuto = minuto - 1;
       segundoTotal = 60;
       ultimoTempo = 0;
     }

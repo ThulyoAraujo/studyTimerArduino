@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> 0f9932e3b1743c031c73eaeae2dd32ea3d776dfe
 #include <LiquidCrystal.h>      // usando a biblioteca LiquidCrystal
 
 const int rs = 8, en = 9, d4 = 4, d5 = 5, d6 = 6, d7 = 7; // definicao dos pinos do Display
@@ -12,12 +8,8 @@ const int pinoBotaoVerde = 12;         //PINO DIGITAL UTILIZADO PELO PUSH BUTTON
 const int pinoBotaoVermelho = 11;           //PINO DIGITAL UTILIZADO PELO PUSH BUTTON RED
 const int buzzer = 2;                  //PINO DIGITAL UTILIZADO PELO LED
 
-int segundo, minuto;
-unsigned long  salvarTempo;
-int ultimoTempo;
-unsigned long proximoSegundo;
-int segundoTotal;
-int tempoDoTemporizador;
+int segundo, minuto, segundoTotal, tempoDoTemporizador, ultimoTempo;
+unsigned long  salvarTempo, proximoSegundo;
 
 boolean desativar = false;
 
